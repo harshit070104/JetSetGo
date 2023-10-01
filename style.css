@@ -1,0 +1,823 @@
+*{
+    box-sizing: border-box;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;     
+}
+body{
+    margin: 0;   
+    height: 100%;      
+    overflow-x: hidden; 
+}
+header{
+    background-color: #003b95;
+}
+/* -------------------------------------------------------------------------------------------------------- */
+                                      /* FIRST NAVBAR*/
+.navbar1{
+    overflow: auto;
+    margin: auto;
+}
+.navbar1 ul{
+    padding: 0%;
+    
+    width: 100%;
+    margin: 0;
+}
+.navbar1 li{
+    list-style-type: none;    
+    float: left;
+    height: 50px;     
+    text-align: center;    
+    font-size: 18px; 
+    margin: 10px 5px;   
+}
+.navbar1 a{
+    text-decoration: none;
+    color: white;    
+}
+#bookingLogo{   
+    width: 570px; 
+    text-align: left;
+    margin-left: 80px;    
+    padding: 10px 0;
+}
+#bookingLogo a{
+    font-size: 25px;
+    font-weight:bold;    
+}
+.topNvg{
+    width: 50px; 
+    padding: 12px 0;   
+    border-radius: 2px;
+}
+.topNvg img{
+    height: 120%;
+    width: 60%;
+    border-radius: 100%;  
+}
+#propertyBox{
+    width: 155px;    
+    padding: 12px 0; 
+    border-radius: 2px; 
+}
+.topNvg:hover , #propertyBox:hover{
+    background-color: rgba(255, 255, 255, 0.1); /* Gives Transparent Color*/
+}
+.info{
+    width: 90px;
+    height: 40px !important;   
+    padding: 8px 0;  
+    margin: 15px 5px !important;
+    background-color: rgb(241, 237, 237);
+    border-radius: 5px;
+    font-size: 16px !important;  
+}
+.info a{
+    color: #0071c2;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+                                        /* SECOND NAVBAR */
+.navbar2{
+    overflow: auto;
+    margin: 0;
+    margin-left: 60px;
+    padding: 0;
+}
+.navbar2 ul{
+    width: 100%;
+    margin: 0;        
+}
+.navbar2 li{
+    list-style: none;
+}
+.navbar2 button{      
+    float: left;
+    height: 40px;     
+    width: 140px;
+    text-align: center;    
+    font-size: 16px; 
+    color:white;
+    margin: 8px 6px;     
+    background-color: #003b95;    
+    border-radius: 50px;
+    padding: 0;
+    padding-bottom: 1px;
+    border: solid white 1px;
+    background-color: rgba(255,255,255,0.1);
+    cursor: pointer;
+}
+.nextNvg{
+    border-style: none !important;
+    background-color: #003b95 !important;
+}
+.nextNvg:hover{
+    background-color: rgba(255, 255, 255, 0.1) !important;    
+}
+/* ------------------------------------------------------------------------------------------------------ */
+                                        
+                                /* Find your next stay Div */
+.container{
+    width: 100%;
+    height: 250px;
+    background-color: #003b95;
+    margin: auto;
+    padding: auto;
+    position: relative;
+}     
+.container h1{
+    margin: auto;
+    padding: auto;
+    color: white;
+}                
+.one h1{
+    font-size: 50px;    
+    margin-left: 80px;
+}    
+.two h1{
+    font-size: 25px;
+    font-weight: normal;
+    padding: 7px 0 0 0;
+    margin-left: 80px;
+}
+.innerContainer{
+    position: absolute;
+    top: 75px;
+}
+.three{
+    margin: 0 160px;    
+}
+.three table{         
+    border-collapse: collapse;    
+    margin : 0 -50px;
+    margin-top: 35px;
+    width: auto;
+    height: auto;
+}
+.three td{
+    border: solid rgb(255, 204, 0) 4px;    
+    width: auto;
+    background-color: white;
+}
+.three input{
+    height: 50px;
+    width: 250px;
+    color: black;
+    background-color: white;
+    border-style: none;
+    text-align: center;
+}
+.three input:hover{
+    border : red 1px;
+}
+#fmly{
+    width: 60px !important;
+    border-radius: 50px;
+    border : 1px solid;    
+}
+#fmlyInfo{
+    width: 400px;
+    color: rgb(27, 15, 2);
+    text-align: center;
+    padding: 6px;
+}
+.three button{
+    border-style: none;
+    font-size: 25px;
+    height: 60px;
+    width: 120px; 
+    color: white;
+    background-color: #2b71de;   
+}
+.three button:hover{
+    background-color: rgb(0, 59, 149);
+}
+
+.four pre{
+    margin-left: 107px;
+    font-size: 14px;
+}
+/* ----------------------------------------------------------------------------------------------------- */
+.container2{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+                                                /* CONTAINER 2a */
+.container2a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70rem;
+    margin-left: -9px;
+}
+.container2a .card{
+    height: 200px;
+    width: 600px;   
+    margin: 4px 8px; 
+    box-shadow: 0 0 8px 0px rgb(149, 145, 145);
+    border-radius: 15px;    
+    overflow: hidden;
+}
+.container2a .card img{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    float: right;    
+}
+.container2a .card .c-info{
+    margin: 0;
+    padding: 30px 20px;
+    height: 200px;
+    width: 330px;     
+    position: relative;   
+}
+.container2a .card h4,p{
+    margin: 0;
+    padding: 4px;
+}
+.container2a .card button{
+    margin: 20px 2px;
+    padding: 10px;
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #006ce4;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.container2a .card button:hover{
+    background-color: #003b95;
+}
+
+
+                                        /* CONTAINER 2b and common for all */
+.container2b,.container2c,.container2d,.container2f,.container3b.container3c{
+    width: 1600;
+    height: auto;
+    margin: auto;
+    margin-top: -45px;
+    margin-left: -120px;
+}
+.slider{
+    margin-top: 150px;
+    height: 300px;    
+    border: solid 1.5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.subcontainer{    
+    width: 85%;
+    margin-left: 115px;
+}
+.slide{
+    padding: 0;    
+    width: 170px !important;
+    margin: 6px 7.5px !important;
+    border-radius: 15px;    
+    box-shadow: 0 0 8px 0px rgb(149, 145, 145);    
+}
+.slide h4{    
+    margin: 6px;
+}
+.slide img{
+    margin: 0 !important;
+    width: 100%;
+    height: 145px;
+    border-radius: 15px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tns-controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 110px;
+    margin-left: -45px;
+    width: 1200px;
+}
+.tns-controls button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: white;
+    box-shadow: 2px 2px 8px 0px grey;    
+    text-align: center;  
+    font-size: 25px;               
+}
+.tns-controls button:hover{
+    background-color: rgba(39, 38, 38, 0.297);
+}
+.tns-controls button:disabled{
+    background-color: white;
+    visibility: hidden;    
+}
+
+.tns-controls button p{
+    margin: 0;
+    padding: 0;
+}
+.slide p{
+    margin: 5px; 
+    color: rgb(71, 71, 71);
+    font-size: 14px;   
+}
+
+                            /*  For CONTAINER  2c  and CONTAINER 3b,3c*/
+.container2c .slide,.container3b .slide,.container3c .slide{
+    width: 263px !important;
+}
+.container2c .slide img,.container3b .slide img{
+    height: 200px !important;
+}
+.container2c .tns-controls{
+    /* display: flex !important;     */
+    top : 160px;
+}
+
+                        /*  For CONTAINER  2d */
+.container2d .tns-controls{    
+    top: 125px !important;    
+}
+
+    
+
+                                    /* ---- CONTAINER 2e ----------- */
+.container2e button{
+    height: 50px;   
+    width: auto;    
+    font-weight: 350;    
+    font-size: 14px;    
+    border-radius: 50px;
+    margin: 0 4px;
+    padding: 0 16px 0 36px;
+    cursor: pointer;
+    border-style: none;
+    background-color: white;
+    position: relative;
+}   
+.container2e button span{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+.container2e button:hover{
+    background-color: rgba(26, 26, 26, 0.06);
+}
+.container2e #b1{
+    background-color: rgba(0, 108, 228, 0.06);
+    color: rgb(0, 108, 228);
+    border: solid 1px #006ce4;
+} 
+                                    /* CONTAINER 2f */
+.container2f .tns-controls{    
+    display: flex;
+    top: 125px !important;    
+}
+
+@media (max-width:1600px) {
+    .container{
+        width: 100%;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+                                            /* CONATAINER  3a */
+.container3a{
+    margin-left: 76px;    
+    display: flex;
+}
+.container3a .card{
+  margin: 4px 6px;   
+  height: 240px; 
+  width: 262px; 
+}
+.container3a .card img{    
+    height: 240px; 
+    width: 262px;    
+    border-radius: 15px;
+}
+.container3a #m-card{    
+    width: 550px !important;
+    height: 380px !important;
+    box-shadow: inset 0px -20px 200px 30px black;
+    border-radius: 15px;
+    background-image: url(https://cf.bstatic.com/xdata/images/xphoto/540x405/259840390.webp?k=5aa36c85422aadcbd7ab803529724fad37968f5de678a81916ab32feb3fa64bd&o=);        
+    transition: all 0.4s ease-in-out;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container3a #m-card:hover{    
+    background-size: 115%;
+    
+}
+.container3a #m-card img{    
+    width: 550px !important;
+    height: 380px !important;
+}
+.container3a .card h4{
+    margin:  10px 4px 4px 4px;
+    padding: 0;
+}
+.container3a .card p{
+    margin: 4px;
+    padding: 0;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+}
+.container3a .m-info{
+    position: relative;
+    top : 300px;    
+    margin: 6px;    
+}
+.container3a .m-info h4{
+    font-size: 20px;    
+    color: white;
+}
+.container3a .m-info p{
+    font-weight: 600;
+    color: white;    
+}
+
+
+                                            /* CONTAINER 3b */
+
+.container3b{
+    margin : -45px 0 0 -40px;    
+}
+.container3b .slide img,.container3c .slide img{
+    height: 220px !important;
+}
+.container3b .hotel-info{
+    padding: 10px;
+    margin: 0;
+    height: 177px;
+    position: relative;
+}
+.container3b .hotel-info h4{
+    margin: 0;
+}
+.container3b .hotel-info p.location{
+    font-size: 13px;
+    font-weight: 350;
+    margin: 0;
+    color: rgb(71, 71, 71);
+}
+
+.container3b .hotel-info .rating-box{
+    margin: 0;
+}
+.container3b .hotel-info .rating-box p.rating{
+    margin: 0;
+    background-color: rgb(0, 59, 149);
+    color: white;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    display: inline-block;
+}
+.container3b .hotel-info .rating-box p.reviews{
+    font-size: 13px;
+    display: inline-block;
+    font-weight: 350;
+    color: rgb(71, 71, 71);
+}
+
+.container3b .hotel-info p.price{ 
+    text-align: right;   
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0;   
+    font-weight: 350;
+    color: rgb(71, 71, 71);
+    
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
+.container3b span{
+    font-weight: 650;
+    font-size: 16px;    
+}
+
+.container3b .tns-controls{    
+    top: 222px !important;    
+}
+
+
+
+                                                /* CONTAINER 3c */
+.container3c{
+    margin: -45px 0 20px -40px;    
+}
+.container3c .slide{
+    height: 335px;
+}
+.container3c .hotel-info{
+    padding: 12px;
+    margin: 0;
+    height: 106px;
+    position: relative;
+}
+.container3c .hotel-info h4{
+    margin: 0;
+}
+.container3c .hotel-info p.location{
+    font-size: 13px;
+    font-weight: 350;
+    margin: 0;
+    color: rgb(71, 71, 71);
+}
+
+.container3c .hotel-info .rating-box{
+    margin: 0;
+}
+.container3c .hotel-info .rating-box p.rating{
+    margin: 0;
+    background-color: rgb(0, 59, 149);
+    color: white;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.container3c .hotel-info .rating-box p.reviews{
+    font-size: 13px;
+    display: inline-block;
+    font-weight: 350;
+    color: rgb(71, 71, 71);;
+}
+
+.container3c .tns-controls{    
+    top: 185px !important;    
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+.container4{
+    background-color: #e2bbdb12;
+    margin-left: 80px;
+    border: solid 1px rgb(231, 231, 231);
+    border-radius: 10px;   
+    position: relative; 
+    width: 1100px;
+    height: 184px;
+}
+.container4 img{
+    height: 157px;
+    width: 165px;
+    margin: 11px 17px;
+}
+.container4 #image{
+    border-bottom: solid 1px rgb(231, 231, 231);
+    border-left: solid 1px rgb(231, 231, 231);
+    border-radius: 10px;   
+    border-bottom-right-radius: 0;
+    position: absolute;
+}
+.container4 #content{
+    border-bottom: solid 1px rgb(231, 231, 231);
+    border-right: solid 1px rgb(231, 231, 231);
+    border-radius: 10px;   
+    border-bottom-left-radius: 0;
+    position: absolute;
+    left: 200px;
+    width: 900px;
+    padding: 10px 0;
+    background-image: url("https://th.bing.com/th/id/OIP.CqbvjsdribJBzIsti-AKkAHaD-?w=329&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-repeat: no-repeat;
+    background-position: right;    
+    
+}
+.container4 #content h2{
+    margin-bottom: 0;
+}
+.container4 #content pre{
+    font-weight: 370;
+    margin-top: 5px;
+}
+.container4 #content button{
+    height: 35px;
+    width: auto;
+    margin: 2px;
+    padding: 5px 10px;
+    color: #006ce4;
+    font-weight: 600;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #fdfafc;
+}
+.container4 #content button:hover{
+    background-color: rgba(0, 108, 228, 0.06);
+}
+.container4 #b1{
+    border: solid 1px #006ce4 !important;
+}
+
+.container4a{
+    margin: 20px 0 20px 80px;
+    position: relative;
+    width: 1100px;
+    height: 270px;
+    /* background-color: rgb(205, 167, 167); */
+    overflow: hidden;
+    border: solid 1px rgb(231, 231, 231);
+    border-radius: 10px;
+}
+.container4a .left{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(255, 183, 0);
+    border-radius: 100%;
+    position: absolute;
+    bottom: 40px;
+    left: -20px;
+}
+.container4a .middle{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    background-color: #006ce4;
+    position: absolute;
+    left: 150px;
+    bottom: -116px;
+}
+.container4a .right img{
+    height: 250px;
+    width: 400px;
+    position: absolute;
+    right: 40px;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------- */
+.container5{
+    margin: 30px 0 0 80px;    
+}
+.container5 button{
+    height: 50px;    
+    font-weight: 500;    
+    border-radius: 50px;
+    margin: 0 5px;
+    padding: 15px;
+    cursor: pointer;
+    border-style: none;
+    background-color: white;
+}
+.container5 button:hover{
+    background-color: rgba(26, 26, 26, 0.06);
+}
+.container5 #b1{
+    background-color: rgba(0, 108, 228, 0.06);
+    color: rgb(0, 108, 228);
+    border: solid 1px #006ce4;
+}
+.container5 h4{
+    font-weight: 500;
+    margin: 0;
+}
+.container5 pre{
+    font-weight: 200;
+    margin: 7px 0;    
+}
+.container5 table{
+    width: 90%;    
+}
+.container5 table td{
+    height: 5px;
+}
+.container5 table td h4:hover{
+text-decoration: underline;}
+
+/*  ---------------------------------------------------------------------------------------------------------- */
+.container6{
+    background-color: #00224f;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+}
+.container6 p{
+    margin: 0;
+}
+.container6 p#p1{    
+    font-size: 22px;
+    padding-top: 60px;
+}
+.container6 input{
+    margin: 30px 0 50px 0;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 200;
+    border-style: none;
+    border-radius: 5px;
+}
+.container6 button{
+    color: white;
+    background-color: #006ce4;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 200;
+    border-style: none;
+    border-radius: 5px;
+}
+.container6 button:hover{
+    background-color: #2458a7;    
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+.container7{
+    background-color: #003b95;    
+    text-align: center;
+
+}
+.container7 button{
+    background-color: #003b95;
+    color: white;
+    margin: 15px;
+    padding: 5px 20px;
+    border: solid white 1px;
+    border-radius: 3px;
+}
+.container7 button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.container7 ul{
+    list-style-type: none;  
+    width: 100%;  
+    margin-left: 40px;
+    padding: 0;
+    overflow: auto;
+}
+.container7 ul li{
+    float: left;
+    width: 175px;
+    font-size:small;
+}
+.container7 a{
+    color: white;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+.container8{
+    margin: 10px 0 0 80px;
+}
+.container8 table{
+    width: 90%;    
+}
+.container8 table td{    
+    padding: 3px 0;
+    font-size: small;
+}
+.container8 table a{    
+    text-decoration: none;        
+    color: #006ce4;        
+}
+.container8 table a:hover{        
+    color: #bc5b01;        
+}
+.container8 #extranetLogin{    
+    text-align: center;
+    margin: 50px 0 30px 0;
+}
+.container8 #extranetLogin a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(26, 26, 26);
+}
+.container8 #extranetLogin a:hover{
+    color: rgb(188, 91, 1);
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+.copyright p#p1{
+    font-size: small;
+    font-weight: 400;
+    margin-left: 80px;
+}
+.copyright p#p2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: small;
+    font-weight: 300;
+}
+.copyright .sponsors{
+    text-align:  center;
+}
+.copyright .sponsors img{    
+    margin: 15px 20px;
+}
+
